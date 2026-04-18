@@ -1,0 +1,19 @@
+[
+  "tests/test_daily_item_sales_units.py::test_get_daily_item_sales_units_counts_lines",
+  "tests/test_db_queries.py::test_get_distinct_categories_maps_empty_and_null",
+  "tests/test_db_queries.py::test_get_item_margin_ranking_statuses_and_sorting",
+  "tests/test_hourly_forecast_ml.py::test_is_hour_open_per_dow",
+  "tests/test_hourly_forecast_ml.py::test_run_hourly_forecast_ok_shape_and_metrics",
+  "tests/test_hourly_forecast_ml.py::test_run_hourly_forecast_rejects_short_history",
+  "tests/test_hourly_totals.py::test_get_hourly_buyings_totals",
+  "tests/test_hourly_totals.py::test_get_hourly_sales_totals_groups_by_hour",
+  "tests/test_stock_recommendation.py::test_recommend_no_matching_weekday",
+  "tests/test_stock_recommendation.py::test_recommend_uses_same_weekday_and_ceils_mean",
+  "tests/test_table_importer_parse_line.py::test_parse_line_invalid_total_price_returns_none",
+  "tests/test_table_importer_parse_line.py::test_parse_line_single_item_price_from_items_db",
+  "tests/test_table_importer_parse_line.py::test_parse_line_two_different_items_uses_db_prices_and_adjusts_sum",
+  "tests/test_table_importer_parse_line.py::test_parse_line_two_identical_items_splits_total_evenly",
+  "tests/test_table_importer_parse_line.py::test_parse_line_unknown_items_fallback_splits_evenly",
+  "tests/test_table_importer_process_file.py::test_process_file_inserts_sales_and_buyings",
+  "tests/test_table_importer_process_file.py::test_process_file_skips_invalid_lines"
+]
